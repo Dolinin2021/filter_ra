@@ -2,6 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dolinin2021.github.io/filter_ra/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
