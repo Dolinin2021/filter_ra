@@ -1,0 +1,1 @@
+.App{font-family:sans-serif;text-align:center}main{text-align:center;height:100vh;display:flex;flex-direction:column;justify-content:start;gap:20px}button{margin:0 2px;padding:2px 5px}.active{background-color:green;color:#fff}span{color:green}.container-img{display:flex;flex-wrap:wrap;justify-content:center}img{flex:0 1 calc(100%/3 - 20px*2);margin:20px}
