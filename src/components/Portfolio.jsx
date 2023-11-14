@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import Toolbar from "./Toolbar";
 import { ProjectList } from "./ProjectList";
 
@@ -24,4 +25,8 @@ export default function Portfolio(props) {
       <ProjectList projects={arrData} />
     </main>
   );
+}
+
+Portfolio.propTypes = {
+  data: PropTypes.array,
 }

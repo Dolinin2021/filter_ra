@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export const ProjectList = ({ projects }) => {
   return (
     <div className="container-img">
@@ -9,4 +11,7 @@ export const ProjectList = ({ projects }) => {
     </div>
   );
 };
-  
+
+ProjectList.propTypes = {
+  projects: PropTypes.array,
+}
